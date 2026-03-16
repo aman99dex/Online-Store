@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-
-db_url = "postgresql://postgres:@#XYxx69@localhost:5432/fast"
+#put your db url here
+db_url = "postgresql://username:password@localhost:5432/database_name"
 
 engine = create_engine(db_url)
 
